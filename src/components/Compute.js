@@ -38,7 +38,7 @@ const Compute = ({ number }) => {
 				break;
 
 			case 'equal':
-				if (number !== currentNumber) console.log('!!!');
+				if (+number !== +currentNumber) console.log('!!!');
 				else history.push('/congrats');
 				break;
 			default:
