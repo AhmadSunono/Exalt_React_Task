@@ -1,9 +1,9 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Welcome from './components/Welcome';
 import { useState } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import './App.css';
 import Compute from './components/Compute';
 import Congrats from './components/Congrats';
+import Welcome from './components/Welcome';
 
 function App() {
 	const [number, setNumber] = useState(1);
